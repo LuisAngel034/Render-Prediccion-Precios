@@ -1,0 +1,28 @@
+{
+    "nombre": "Random Forest con PCA",
+    "variable_objetivo": "price",
+    "unidad_salida": "rupias indias",
+    "columnas_entrada": [
+        "airline",
+        "source_city",
+        "departure_time",
+        "stops",
+        "arrival_time",
+        "destination_city",
+        "class",
+        "duration",
+        "days_left"
+    ],
+    "cantidad_registros": 300153,
+    "cantidad_variables_originales": 9,
+    "componentes_pca": 23,
+    "semilla": 42,
+    "random_forest": {
+        "n_estimators": 150,
+        "max_depth": 30,
+        "min_samples_leaf": 2,
+        "max_features": 0.8,
+        "random_state": 42
+    },
+    "version_sklearn": "1.8.0"
+}
